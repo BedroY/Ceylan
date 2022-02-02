@@ -7,13 +7,16 @@ import "./SpecialMenu.css";
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
-      <SubHeading title="Vår signatursmeny" />
-      <h1 className="headtext__cormorant">Våran Meny</h1>
+      {/* <SubHeading title="Vår signatursmeny" /> */}
+      <h1 className="headtext__cormorant">Vår Meny</h1>
     </div>
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza Klass 1</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 240kr, Barnpizza 85kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.Pizza1.map((Pizza, index) => (
             <MenuItem
@@ -32,6 +35,9 @@ const SpecialMenu = () => (
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza Klass 2</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 250kr, Barnpizza 92kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.Pizza2.map((Pizza, index) => (
             <MenuItem
@@ -47,6 +53,9 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza Klass 3</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 265kr, Barnpizza 98kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.Pizza3.map((Pizza, index) => (
             <MenuItem
@@ -65,6 +74,9 @@ const SpecialMenu = () => (
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza Klass 4</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 275kr, Barnpizza 100kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.Pizza4.map((Pizza, index) => (
             <MenuItem
@@ -80,6 +92,9 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza Klass 5</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 290kr, Barnpizza 105kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.Pizza5.map((Pizza, index) => (
             <MenuItem
@@ -98,6 +113,9 @@ const SpecialMenu = () => (
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza Klass 6</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 350kr, Barnpizza 120kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.Pizza6.map((Pizza, index) => (
             <MenuItem
@@ -113,6 +131,9 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Specialpizzor</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 325kr, Barnpizza 110kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.specialPizza.map((Pizza, index) => (
             <MenuItem
@@ -131,6 +152,9 @@ const SpecialMenu = () => (
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Kebabpizzor</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 330kr, Barnpizza 110kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.kebabPizza.map((Pizza, index) => (
             <MenuItem
@@ -146,6 +170,9 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Mexikanska Pizzor</p>
+        <p className="app__specialMenu-menu_heading-sub">
+          Familjepizza 285kr, Barnpizza 100kr
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.mexicanPizza.map((Pizza, index) => (
             <MenuItem

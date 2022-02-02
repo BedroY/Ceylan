@@ -10,6 +10,12 @@ const FindUs = () => (
       <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>
         Hitta oss
       </h1>
+      <p
+        className="p__cormorant"
+        style={{ color: "#DCCA87", margin: "2rem 0" }}
+      >
+        Address
+      </p>
       <div className="app__wrapper-content">
         <p className="p__opensans">Björkhagsgatan 2, 663 30 Skoghall</p>
         <p
