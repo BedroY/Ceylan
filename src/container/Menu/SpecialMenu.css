@@ -36,6 +36,15 @@
     color: var(--color-white);
 }
 
+.app__specialMenu-menu_heading-sub-2 {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
 .app__specialMenu-menu_wine,
 .app__specialMenu-menu_cocktails {
     flex: 1;

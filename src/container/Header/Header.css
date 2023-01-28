@@ -12,6 +12,14 @@
   font-size: 90px;
 }
 
+.app__header-h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-weight: 700;
+  line-height: 110px;
+  font-size: 45px;
+}
+
 .app__header-img img {
   width: 80%;
 }

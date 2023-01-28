@@ -9,6 +9,7 @@ const Header = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Skoghalls bästa pizzeria" />
       <h1 className="app__header-h1">Pizzeria Ceylan</h1>
+      <h2 className="app__header-h2">Lunchpaket för bara 114kr!</h2>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
         Beställ idag hos oss på: <br />
         054-51 70 78
